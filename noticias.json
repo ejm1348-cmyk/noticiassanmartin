@@ -1,5 +1,43 @@
 [
   {
+    "id": "1793661692",
+    "localidad": "🌿 ROMERO",
+    "zona": "FITOTERAPIA",
+    "titulo": "ROMERO - romero officinalis - Propiedades y usos",
+    "resumen": "🌿 ROMERO - romero officinalis\n\n🌿 ROMERO - Medicina natural\n\nEl romero es una planta ancestral con propiedades increíbles... #Fitoterapia\n\n📋 PRINCIPIOS ACTIVOS:\nAceite esencial, Flavonoides, Acido rosmarinico\n\n💚 PROPIEDADES:\n• Antiinflamatorio\n• Digestivo\n• Antioxidante\n• Relajante\n• Antiseptico\n\n🍵 FORMAS DE USO:\n• Infusión: 1 cdita por taza, 10 min, 2 veces/dia\n• Tintura: 20 gotas en agua, 3 veces/dia\n• Aceite: 2 gotas difusor\n• Tópico: Compresas\n• Cocina: Condimento\n\n⚠️ CONTRAINDICACIONES:\nEmbarazo, lactancia, epilepsia.\n\n👉 Más info completa en nuestra web: https://ejm1348-cmyk.github.io/noticiassanmartin/\nGuardá este post y compartí 🌿\n\n#Fitoterapia #PlantasMedicinales #romero #MedicinaNatural #SanMartin\n",
+    "resumen_corto": "🌿 ROMERO - Medicina natural",
+    "texto_completo": "🌿 ROMERO - romero officinalis\n\n🌿 ROMERO - Medicina natural\n\nEl romero es una planta ancestral con propiedades increíbles... #Fitoterapia\n\n📋 PRINCIPIOS ACTIVOS:\nAceite esencial, Flavonoides, Acido rosmarinico\n\n💚 PROPIEDADES:\n• Antiinflamatorio\n• Digestivo\n• Antioxidante\n• Relajante\n• Antiseptico\n\n🍵 FORMAS DE USO:\n• Infusión: 1 cdita por taza, 10 min, 2 veces/dia\n• Tintura: 20 gotas en agua, 3 veces/dia\n• Aceite: 2 gotas difusor\n• Tópico: Compresas\n• Cocina: Condimento\n\n⚠️ CONTRAINDICACIONES:\nEmbarazo, lactancia, epilepsia.\n\n👉 Más info completa en nuestra web: https://ejm1348-cmyk.github.io/noticiassanmartin/\nGuardá este post y compartí 🌿\n\n#Fitoterapia #PlantasMedicinales #romero #MedicinaNatural #SanMartin\n",
+    "principios_activos": [
+      "Aceite esencial",
+      "Flavonoides",
+      "Acido rosmarinico"
+    ],
+    "propiedades": [
+      "Antiinflamatorio",
+      "Digestivo",
+      "Antioxidante",
+      "Relajante",
+      "Antiseptico"
+    ],
+    "usos": {
+      "infusion": "1 cdita por taza, 10 min, 2 veces/dia",
+      "tintura": "20 gotas en agua, 3 veces/dia",
+      "aceite": "2 gotas difusor",
+      "uso_topico": "Compresas",
+      "cocina": "Condimento"
+    },
+    "contraindicaciones": "Embarazo, lactancia, epilepsia.",
+    "nombre_cientifico": "romero officinalis",
+    "fuente": "Fitoterapia Profesional - Noticias San Martin",
+    "link": "",
+    "link_externo": "",
+    "fecha": "2026-11-02T23:21:32.491781+00:00",
+    "hot": true,
+    "prio": 1,
+    "fito": true,
+    "imagen": "C:\\Users\\edgar\\mi-equipo-ia\\placa_romero.jpg"
+  },
+  {
     "id": "1793660943",
     "localidad": "🌿 ROMERO",
     "zona": "FITOTERAPIA",
