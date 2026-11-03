@@ -1,5 +1,43 @@
 [
   {
+    "id": "1793729852797",
+    "localidad": "🌿 RUDA",
+    "zona": "FITOTERAPIA",
+    "titulo": "RUDA - Ruta graveolens - Propiedades y usos",
+    "fecha": "2026-11-03T18:17:32.797009+00:00",
+    "hot": false,
+    "prio": 1,
+    "imagen": "img/1793729852_placa_ruda.jpg",
+    "resumen": "🌿 RUDA · Ruta graveolens\n\nLa ruda es una planta con una larga tradición en la medicina natural. Su aroma intenso y sabor picante pueden ser un poco desagradables, pero sus propiedades son muy beneficiosas. La ruda es antibacteriana y antiinflamatoria, lo que la hace ideal para tratar problemas digestivos y respiratorios. Puedes preparar una infusión con hojas de ruda frescas o comprarla en forma de tintura o aceite. Recuerda consultar a un profesional antes de usarla, especialmente si tienes problemas de salud subyacentes. ¡Espero que esta información te sea útil! 😊\n\n💚 PROPIEDADES:\n• Antiséptica\n• Antiinflamatoria\n• Digestiva\n• Expectorante\n• Antioxidante\n\n🧪 PRINCIPIOS ACTIVOS: Rutosídeo, Flavonoides, Terpenos\n\n🍵 CÓMO SE USA:\n• Infusión: 1 cucharita por taza de agua, 3 veces al día\n• Tintura: consultar a un profesional\n• Aceite: uso externo en masajes\n• Uso tópico: aplicar en ampollas o heridas\n• En la cocina: agregar a ensaladas o sopas\n\n⚠️ PRECAUCIONES:\nTÓXICA en dosis altas. No usar en embarazo ni lactancia (puede provocar aborto). El contacto con la savia y el sol puede quemar la piel. No tomar sin supervisión profesional. No usar en embarazadas, niños menores de 12 años o personas con problemas de tiroides\n\nℹ️ Información educativa. No reemplaza la consulta con un profesional de la salud.\n\n👉 Más info en nuestra web: https://ejm1348-cmyk.github.io/noticiassanmartin/\n\n#Fitoterapia #PlantasMedicinales #Ruda #MedicinaNatural #SanMartín",
+    "resumen_corto": "La ruda es una planta con propiedades antibacterianas y antiinflamatorias. Se utiliza en infusión, tintura o aceite para tratar problemas digestivos y respiratorios.",
+    "texto_completo": "🌿 RUDA · Ruta graveolens\n\nLa ruda es una planta con una larga tradición en la medicina natural. Su aroma intenso y sabor picante pueden ser un poco desagradables, pero sus propiedades son muy beneficiosas. La ruda es antibacteriana y antiinflamatoria, lo que la hace ideal para tratar problemas digestivos y respiratorios. Puedes preparar una infusión con hojas de ruda frescas o comprarla en forma de tintura o aceite. Recuerda consultar a un profesional antes de usarla, especialmente si tienes problemas de salud subyacentes. ¡Espero que esta información te sea útil! 😊\n\n💚 PROPIEDADES:\n• Antiséptica\n• Antiinflamatoria\n• Digestiva\n• Expectorante\n• Antioxidante\n\n🧪 PRINCIPIOS ACTIVOS: Rutosídeo, Flavonoides, Terpenos\n\n🍵 CÓMO SE USA:\n• Infusión: 1 cucharita por taza de agua, 3 veces al día\n• Tintura: consultar a un profesional\n• Aceite: uso externo en masajes\n• Uso tópico: aplicar en ampollas o heridas\n• En la cocina: agregar a ensaladas o sopas\n\n⚠️ PRECAUCIONES:\nTÓXICA en dosis altas. No usar en embarazo ni lactancia (puede provocar aborto). El contacto con la savia y el sol puede quemar la piel. No tomar sin supervisión profesional. No usar en embarazadas, niños menores de 12 años o personas con problemas de tiroides\n\nℹ️ Información educativa. No reemplaza la consulta con un profesional de la salud.\n\n👉 Más info en nuestra web: https://ejm1348-cmyk.github.io/noticiassanmartin/\n\n#Fitoterapia #PlantasMedicinales #Ruda #MedicinaNatural #SanMartín",
+    "principios_activos": [
+      "Rutosídeo",
+      "Flavonoides",
+      "Terpenos"
+    ],
+    "propiedades": [
+      "Antiséptica",
+      "Antiinflamatoria",
+      "Digestiva",
+      "Expectorante",
+      "Antioxidante"
+    ],
+    "usos": {
+      "infusion": "1 cucharita por taza de agua, 3 veces al día",
+      "tintura": "consultar a un profesional",
+      "aceite": "uso externo en masajes",
+      "uso_topico": "aplicar en ampollas o heridas",
+      "cocina": "agregar a ensaladas o sopas"
+    },
+    "contraindicaciones": "TÓXICA en dosis altas. No usar en embarazo ni lactancia (puede provocar aborto). El contacto con la savia y el sol puede quemar la piel. No tomar sin supervisión profesional. No usar en embarazadas, niños menores de 12 años o personas con problemas de tiroides",
+    "nombre_cientifico": "Ruta graveolens",
+    "fuente": "Fitoterapia - Noticias San Martín",
+    "link": "",
+    "link_externo": "",
+    "fito": true
+  },
+  {
     "id": "1793729616691",
     "localidad": "ITUZAINGÓ",
     "zona": "CONURBANO",
