@@ -1,5 +1,43 @@
 [
   {
+    "id": "1793711394",
+    "localidad": "🌿 RUDA",
+    "zona": "FITOTERAPIA",
+    "titulo": "RUDA - ruda officinalis - Propiedades y usos",
+    "resumen": "🌿 RUDA - ruda officinalis\n\n🌿 RUDA - Medicina natural. El ruda es una planta ancestral...\n\n📋 PRINCIPIOS ACTIVOS:\nAceite esencial, Flavonoides, Acido rosmarinico\n\n💚 PROPIEDADES:\n• Antiinflamatorio\n• Digestivo\n• Antioxidante\n• Relajante\n• Antiseptico\n\n🍵 FORMAS DE USO:\n• Infusión: 1 cdita por taza, 10 min, 2 veces/dia\n• Tintura: 20 gotas en agua, 3 veces/dia\n• Aceite: 2 gotas difusor\n• Tópico: Compresas\n• Cocina: Condimento\n\n⚠️ CONTRAINDICACIONES:\nEmbarazo, lactancia, epilepsia.\n\n👉 Más info completa en nuestra web: https://ejm1348-cmyk.github.io/noticiassanmartin/\nGuardá este post y compartí 🌿\n\n#Fitoterapia #PlantasMedicinales #ruda #MedicinaNatural #SanMartin\n",
+    "resumen_corto": "🌿 RUDA - ruda officinalis\n\n🌿 RUDA - Medicina natural. El ruda es una planta ancestral...\n\n📋 PRINCIPIOS ACTIVOS:\nAceite esencial, Flavonoides, Acido rosmarinico\n\n💚 PROPIEDADES:\n• Antiinflamatorio\n• Digestivo\n• Antioxidante\n• Relajante\n• Antiseptico\n\n🍵 FORMAS DE USO:\n• Infusión: 1 cdita por taza, 10 m",
+    "texto_completo": "🌿 RUDA - ruda officinalis\n\n🌿 RUDA - Medicina natural. El ruda es una planta ancestral...\n\n📋 PRINCIPIOS ACTIVOS:\nAceite esencial, Flavonoides, Acido rosmarinico\n\n💚 PROPIEDADES:\n• Antiinflamatorio\n• Digestivo\n• Antioxidante\n• Relajante\n• Antiseptico\n\n🍵 FORMAS DE USO:\n• Infusión: 1 cdita por taza, 10 min, 2 veces/dia\n• Tintura: 20 gotas en agua, 3 veces/dia\n• Aceite: 2 gotas difusor\n• Tópico: Compresas\n• Cocina: Condimento\n\n⚠️ CONTRAINDICACIONES:\nEmbarazo, lactancia, epilepsia.\n\n👉 Más info completa en nuestra web: https://ejm1348-cmyk.github.io/noticiassanmartin/\nGuardá este post y compartí 🌿\n\n#Fitoterapia #PlantasMedicinales #ruda #MedicinaNatural #SanMartin\n",
+    "principios_activos": [
+      "Aceite esencial",
+      "Flavonoides",
+      "Acido rosmarinico"
+    ],
+    "propiedades": [
+      "Antiinflamatorio",
+      "Digestivo",
+      "Antioxidante",
+      "Relajante",
+      "Antiseptico"
+    ],
+    "usos": {
+      "infusion": "1 cdita por taza, 10 min, 2 veces/dia",
+      "tintura": "20 gotas en agua, 3 veces/dia",
+      "aceite": "2 gotas difusor",
+      "uso_topico": "Compresas",
+      "cocina": "Condimento"
+    },
+    "contraindicaciones": "Embarazo, lactancia, epilepsia.",
+    "nombre_cientifico": "ruda officinalis",
+    "fuente": "Fitoterapia Profesional - Noticias San Martin",
+    "link": "",
+    "link_externo": "",
+    "fecha": "2026-11-03T13:09:54.973512+00:00",
+    "hot": true,
+    "prio": 1,
+    "fito": true,
+    "imagen": "C:\\Users\\edgar\\mi-equipo-ia\\placa_ruda.jpg"
+  },
+  {
     "id": "1793711059",
     "localidad": "🌿 ANÍS",
     "zona": "FITOTERAPIA",
