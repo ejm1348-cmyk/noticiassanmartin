@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NOTICIAS SAN MARTIN · 3 DE FEBRERO</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;background:#0f172a;color:#e2e8f0;min-height:100vh}
+header{background:linear-gradient(135deg,#0f172a,#1e293b);padding:20px 16px;border-bottom:3px solid #22c55e;position:sticky;top:0;z-index:10}
+h1{font-size:clamp(18px,4vw,26px);text-align:center;letter-spacing:1px}
+h1 span{color:#22c55e}
+.sub{ text-align:center;color:#94a3b8;font-size:13px;margin-top:6px}
+.tabs{display:flex;gap:8px;justify-content:center;margin-top:14px;flex-wrap:wrap}
+.tab{padding:10px 22px;border-radius:999px;border:2px solid #334155;background:#1e293b;color:#cbd5e1;font-weight:700;cursor:pointer;transition:.2s;font-size:14px}
+.tab.active{background:#22c55e;color:#052e16;border-color:#22c55e;transform:scale(1.05)}
+.tab:hover{border-color:#22c55e}
+.tab .badge{background:#0f172a;color:#22c55e;padding:2px 8px;border-radius:999px;margin-left:6px;font-size:12px}
+.container{max-width:1100px;margin:0 auto;padding:18px 14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+.card{background:#1e293b;border:1px solid #334155;border-radius:16px;padding:14px;transition:.2s;position:relative;overflow:hidden}
+.card:hover{border-color:#22c55e;transform:translateY(-2px)}
+.card.fito{border-left:4px solid #22c55e;background:linear-gradient(180deg,#1e293b,#162032)}
+.card.noticia{border-left:4px solid #38bdf8}
+.card .zona{font-size:11px;font-weight:800;letter-spacing:.8px;color:#22c55e;margin-bottom:6px}
+.card.noticia .zona{color:#38bdf8}
+.card h3{font-size:15px;line-height:1.35;margin-bottom:8px;color:#f1f5f9}
+.card .resumen{font-size:13.5px;color:#cbd5e1;line-height:1.5;display:-webkit-box;-webkit-line-clamp:6;-webkit-box-orient:vertical;overflow:hidden;white-space:pre-wrap}
+.card.fito .resumen{-webkit-line-clamp:unset;display:block}
+.card .meta{margin-top:10px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.tag{font-size:11px;padding:4px 8px;border-radius:999px;background:#0f172a;border:1px solid #334155}
+.tag.hot{background:#dc2626;color:#fff;border-color:#dc2626}
+.tag.fito{background:#22c55e;color:#052e16;font-weight:800}
+.btn{margin-top:10px;display:inline-block;padding:8px 14px;border-radius:10px;background:#0f172a;border:1px solid #334155;color:#e2e8f0;font-size:12px;text-decoration:none}
+.btn:hover{border-color:#22c55e}
+.details{margin-top:12px;background:#0f172a;border-radius:12px;padding:12px;border:1px solid #1e293b}
+.details summary{cursor:pointer;font-weight:700;color:#22c55e;font-size:13px}
+.details ul{margin-top:8px;padding-left:18px;font-size:13px;color:#cbd5e1;line-height:1.6}
+.details li{margin-bottom:4px}
+.empty{text-align:center;padding:40px 20px;color:#94a3b8}
+.loader{text-align:center;padding:40px}
+footer{text-align:center;padding:30px 10px;color:#64748b;font-size:12px;border-top:1px solid #1e293b;margin-top:30px}
+a{color:#22c55e}
+</style>
+</head>
+<body>
+<header>
+<h1>NOTICIAS <span>SAN MARTIN</span> · 3 DE FEBRERO</h1>
+<div class="sub">Diario independiente · Actualización automática 24/7 · Fitoterapia profesional</div>
+<div class="tabs">
+<button class="tab active" data-tab="noticias" id="tab-noticias">📰 NOTICIAS <span class="badge" id="count-noticias">0</span></button>
+<button class="tab" data-tab="fito" id="tab-fito">🌿 FITOTERAPIA <span class="badge" id="count-fito">0</span></button>
+</div>
+</header>
+<div class="container">
+<div id="loader" class="loader">⏳ Cargando noticias...</div>
+<div id="grid-noticias" class="grid" style="display:grid"></div>
+<div id="grid-fito" class="grid" style="display:none"></div>
+<div id="empty" class="empty" style="display:none">No hay noticias aún</div>
+</div>
+<footer>© Noticias San Martín · Hecho con IA · <a href="https://ejm1348-cmyk.github.io/noticiassanmartin/noticias.json" target="_blank">noticias.json</a></footer>
+
+<script>
+const URL_JSON = 'noticias.json?v=' + Date.now();
+let todas = [];
+
+function renderNoticias(list){
+  const cont = document.getElementById('grid-noticias');
+  cont.innerHTML = '';
+  if(!list.length){ cont.innerHTML = '<div class="empty">No hay noticias policiales aún</div>'; return; }
+  list.forEach(n=>{
+    const fecha = new Date(n.fecha).toLocaleString('es-AR',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'});
+    const hot = n.hot ? '<span class="tag hot">🔥 URGENTE</span>' : '';
+    const linkBtn = n.link ? `<a class="btn" href="${n.link}" target="_blank">🔗 Ver fuente</a>` : '';
+    cont.innerHTML += `
+    <div class="card noticia">
+      <div class="zona">📍 ${n.localidad || n.zona || 'SAN MARTIN'}</div>
+      <h3>${n.titulo}</h3>
+      <div class="resumen">${(n.resumen||'').slice(0,600)}</div>
+      <div class="meta">
+        <span class="tag">🕒 ${fecha}</span>
+        <span class="tag">${n.fuente||''}</span>
+        ${hot}
+      </div>
+      ${linkBtn}
+    </div>`;
+  });
+}
+
+function renderFito(list){
+  const cont = document.getElementById('grid-fito');
+  cont.innerHTML = '';
+  if(!list.length){ cont.innerHTML = '<div class="empty">🌿 Aún no hay plantas. Usá /planta romero en Telegram para empezar</div>'; return; }
+  list.forEach(n=>{
+    const fecha = new Date(n.fecha).toLocaleString('es-AR',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'});
+    const nombreCientifico = n.nombre_cientifico ? `<div style="font-style:italic;color:#86efac;font-size:13px;margin-bottom:6px">${n.nombre_cientifico}</div>` : '';
+    const texto = n.texto_completo || n.resumen || '';
+    const principios = (n.principios_activos||[]).map(p=>`<li>${p}</li>`).join('');
+    const propiedades = (n.propiedades||[]).map(p=>`<li>• ${p}</li>`).join('');
+    const usos = n.usos ? Object.entries(n.usos).map(([k,v])=> v ? `<li><b>${k}:</b> ${v}</li>` : '').join('') : '';
+    const contra = n.contraindicaciones ? `<li>⚠️ ${n.contraindicaciones}</li>` : '';
+    cont.innerHTML += `
+    <div class="card fito">
+      <div class="zona">🌿 FITOTERAPIA · ${n.localidad?.replace('🌿 FITOTERAPIA -','').trim() || ''}</div>
+      <h3>${n.titulo}</h3>
+      ${nombreCientifico}
+      <div class="resumen">${texto.replace(/\n/g,'<br>')}</div>
+      <details class="details">
+        <summary>📚 Ver ficha completa</summary>
+        ${principios ? `<div style="margin-top:10px"><b>Principios activos:</b><ul>${principios}</ul></div>` : ''}
+        ${propiedades ? `<div style="margin-top:10px"><b>Propiedades:</b><ul>${propiedades}</ul></div>` : ''}
+        ${usos ? `<div style="margin-top:10px"><b>Formas de uso:</b><ul>${usos}</ul></div>` : ''}
+        ${contra ? `<div style="margin-top:10px"><b>Contraindicaciones:</b><ul>${contra}</ul></div>` : ''}
+      </details>
+      <div class="meta">
+        <span class="tag fito">🌿 FITOTERAPIA</span>
+        <span class="tag">🕒 ${fecha}</span>
+      </div>
+    </div>`;
+  });
+}
+
+async function cargar(){
+  try{
+    const r = await fetch(URL_JSON, {cache:'no-store'});
+    todas = await r.json();
+    const noticias = todas.filter(n=> !n.fito && n.zona !== 'FITOTERAPIA' && !(n.localidad||'').includes('FITOTERAPIA'));
+    const fitos = todas.filter(n=> n.fito || n.zona === 'FITOTERAPIA' || (n.localidad||'').includes('FITOTERAPIA'));
+    document.getElementById('count-noticias').textContent = noticias.length;
+    document.getElementById('count-fito').textContent = fitos.length;
+    document.getElementById('loader').style.display='none';
+    renderNoticias(noticias);
+    renderFito(fitos);
+    // si no hay fito, oculta badge?
+  }catch(e){
+    document.getElementById('loader').innerHTML = '❌ Error cargando: ' + e.message + '<br><a href="noticias.json">Ver json</a>';
+  }
+}
+
+document.querySelectorAll('.tab').forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    document.querySelectorAll('.tab').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    const tab = btn.dataset.tab;
+    if(tab==='noticias'){
+      document.getElementById('grid-noticias').style.display='grid';
+      document.getElementById('grid-fito').style.display='none';
+    }else{
+      document.getElementById('grid-noticias').style.display='none';
+      document.getElementById('grid-fito').style.display='grid';
+    }
+  });
+});
+
+cargar();
+setInterval(cargar, 60000); // recarga cada minuto
+</script>
+</body>
+</html>
