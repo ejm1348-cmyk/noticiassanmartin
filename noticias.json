@@ -1,5 +1,19 @@
 [
   {
+    "id": "1793753253076",
+    "localidad": "ELECCIONES",
+    "zona": "NOTICIAS",
+    "titulo": "Elecciones Estados Unidos: Cierran urnas y comienza el recuento de votos en las elecciones de medio mandato en Indiana y Kentucky",
+    "fecha": "2026-11-04T00:47:33.076338+00:00",
+    "hot": false,
+    "prio": 0,
+    "imagen": "img/1793753253_placa_p223_1793753165.png",
+    "cat": "noticias",
+    "resumen": "Elecciones Estados Unidos: Cierran urnas y comienza el recuento de votos en las elecciones de medio mandato en Indiana y Kentucky",
+    "fuente": "CNN Chile",
+    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOZGdtcThBQnNjSVFRb3k4Vi1yQkZQT1JmVTdMbnlEVTlVNnBUWmRlWVNBd1owcXAxdWxSZlJUdkJMMzF3NkpUaE1jS0o1T0UxbklrZFdHeU5ZRmZRaXdvMEE5a19ubHNjakhLeUEzOWg2LWJPb1dFNGlFajh3NjIxV2FkdGlNUDN2Xzl1YTVxU2ZCU1IybFpPbWVhV18xRGRsUzNpdHd2dEZLRktCYzgxNUp2RUcyLUFWalU5TlRsSjVFMV9MSGNrX3FmUEhjZDNQTDBVSGlSb05kZmNuS1ZtWnljaHBZeVJfWk1TbFB3d3RLdw?oc=5"
+  },
+  {
     "id": "1793753034976",
     "localidad": "LOMAS DE ZAMORA",
     "zona": "CONURBANO",
@@ -508,17 +522,5 @@
     "fecha": "2026-11-02T00:52:43.836789+00:00",
     "hot": true,
     "prio": 1
-  },
-  {
-    "id": "1793580448",
-    "localidad": "SAN MARTÍN",
-    "zona": "SAN MARTÍN",
-    "titulo": "Hay alerta amarilla por tormentas para este lunes 2 de noviembre: las provincias afectadas",
-    "resumen": "📰 Fuente: La Nación",
-    "fuente": "",
-    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWS1vS0VyZ2tGd01jXzl2ZjFCMGR1OWlHZzZ0a1NCYzMtVjNfYlZ4V01KLXQ5U3UtTmpUYlM2RmQxaFVqRWU3aF9nSERmbncwcUdCZXVGb0ZkeFZCOTRhVk56Vm5QNmk0UEdOVklReW4yaXhnQmlFMGZHNjNjY3RjQ1VXNWkxWUFxQ1lQN1Jjbk5PQzlKRFU2ejdBMFVmWFdkaEVBVFhSaWpuNU9TZXRRbHR2Ti1LT1VKV0I1UmZtdThSZVBSOXh1ZUQwMV9pa0xEdmpQSll3?oc=5",
-    "fecha": "2026-11-02T00:47:28.166855+00:00",
-    "hot": false,
-    "prio": 0
   }
 ]
