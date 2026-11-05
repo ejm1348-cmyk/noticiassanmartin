@@ -1,5 +1,19 @@
 [
   {
+    "id": "1793923093510",
+    "localidad": "CIUDADELA",
+    "zona": "TRES DE FEBRERO",
+    "titulo": "Detuvieron en Moreno a “El Gordo Tilín”, acusado de liderar una banda narco en Fuerte Apache",
+    "fecha": "2026-11-05T23:58:13.510145+00:00",
+    "hot": true,
+    "prio": 1,
+    "imagen": "img/1793923093_placa_p244_1793922415.png",
+    "cat": "noticias",
+    "resumen": "Detuvieron en Moreno a “El Gordo Tilín”, acusado de liderar una banda narco en Fuerte Apache",
+    "fuente": "Zona Oeste Diario",
+    "link": "https://www.zonaoestediario.com.ar/2026/11/detuvieron-en-moreno-el-gordo-tilin.html"
+  },
+  {
     "id": "1793903045048",
     "localidad": "VILLA BOSCH",
     "zona": "TRES DE FEBRERO",
@@ -512,18 +526,6 @@
     "fuente": "",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQa3lXekNqNmxlLXN6Q29lRzFKRVpxNVpPcDhkQjYwY1JxNVc3X3E2d19yRW9HU1VKRFZGQm84R1owTUhZUlNqOVMxaHdMQWpyUlMxTFNpMXMwdG8yajEtby1RZks3MHEydDlOb09zNEhPQVBqeTRZa2NidDUwUXF2ZjN0V2ZjMldHNk10X0dWRzl0WTRDbndtVU5KM1RMbTdD?oc=5",
     "fecha": "2026-11-02T01:38:14.135443+00:00",
-    "hot": false,
-    "prio": 0
-  },
-  {
-    "id": "1793583358",
-    "localidad": "SAN MARTÍN",
-    "zona": "SAN MARTÍN",
-    "titulo": "Renovaron el alerta por tormentas: desmejora el tiempo hacia la noche en Gualeguaychú y otros 11 departamentos",
-    "resumen": "📰 Fuente: El Día de Gualeguaychú",
-    "fuente": "",
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTi1PSFhlMnhTZnBYSzJ2cXlRNnJxMU5ZRC0wMy1lWWV3ZjNjOUNzUHFvM2FQSDVRdGRTaTZ3Z3RIYnhtMnI0S1lRTWZ6NkhNQV9EQjJNcjlDbk45Ym9IX3dEU01ZUEFHb3ZGTVBpTEhzT3ZmTjdDMlVEQUtmR0x1dWZkM09PdFFRLUpqNDdKLTJ3RVBibFNHVDFKX01acXBDQ0RkSVRETk0zbGd3YnJONVpRUXBNWHZMOTdaYzF4M1JVR0lEenJvaWRSaW5yNmdoSGI0?oc=5",
-    "fecha": "2026-11-02T01:35:58.657569+00:00",
     "hot": false,
     "prio": 0
   }
