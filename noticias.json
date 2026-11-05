@@ -1,5 +1,19 @@
 [
   {
+    "id": "1793851645959",
+    "localidad": "TRES DE FEBRERO",
+    "zona": "TRES DE FEBRERO",
+    "titulo": "Velorio tumbero en Tres de Febrero: tiros en el cementerio, detenidos y motos secuestradas",
+    "fecha": "2026-11-05T04:07:25.959420+00:00",
+    "hot": false,
+    "prio": 1,
+    "imagen": "img/1793851645_placa_p228_1793851611.png",
+    "cat": "noticias",
+    "resumen": "Velorio tumbero en Tres de Febrero: tiros en el cementerio, detenidos y motos secuestradas",
+    "fuente": "SM Noticias",
+    "link": "https://www.smnoticias.com/noticias/290108"
+  },
+  {
     "id": "1793753253076",
     "localidad": "ELECCIONES",
     "zona": "NOTICIAS",
@@ -510,17 +524,5 @@
     "fecha": "2026-11-02T01:23:31.588817+00:00",
     "hot": false,
     "prio": 0
-  },
-  {
-    "id": "1793580763",
-    "localidad": "SAN MARTÍN",
-    "zona": "SAN MARTÍN",
-    "titulo": "Investigación en curso: Una mujer policía mató a un ex presidiario en La Plata",
-    "resumen": "Una mujer policía mató a un ex presidiario de 22 años en un enfrentamiento en la zona de 606 y 15 de Altos de San Lorenzo.",
-    "fuente": "SM Noticias",
-    "link": "https://www.smnoticias.com/noticias/289773",
-    "fecha": "2026-11-02T00:52:43.836789+00:00",
-    "hot": true,
-    "prio": 1
   }
 ]
