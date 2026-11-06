@@ -1,5 +1,19 @@
 [
   {
+    "id": "1793935071036",
+    "localidad": "AVELLANEDA",
+    "zona": "CONURBANO",
+    "titulo": "Dos detenidos por amenazas de muerte a Milei y mensajes golpistas: Los operativos fueron en La Plata y Avellaneda",
+    "fecha": "2026-11-06T03:17:51.036368+00:00",
+    "hot": false,
+    "prio": 2,
+    "imagen": "img/1793935071_placa_p250_1793934411.png",
+    "cat": "noticias",
+    "resumen": "Dos detenidos por amenazas de muerte a Milei y mensajes golpistas: Los operativos fueron en La Plata y Avellaneda",
+    "fuente": "SM Noticias",
+    "link": "https://www.smnoticias.com/noticias/290165"
+  },
+  {
     "id": "1793934263632",
     "localidad": "SAN MARTÍN",
     "zona": "SAN MARTÍN",
@@ -518,18 +532,6 @@
     "fuente": "",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTjhDUmR5NDliMnRKZzh3aGlHS2g0NVZLZ1VtRTZKdkFldDlmS3RvMnE1RW1yRkF2eWlGdGNuLXd1b0huTURoOVZCV205RkphVENTaTdoaWd6Z05vUEtmNEs3LXZ1alJPUDkxamNUdWUzNFBDWmZyVmVIVGFMd1pGZ1dzUTAtRWhMWTctLXJ0VEQwR1NlcGRpVGx4T29XM090SjQwMlM0ckhvUQ?oc=5",
     "fecha": "2026-11-02T02:09:51.643863+00:00",
-    "hot": false,
-    "prio": 0
-  },
-  {
-    "id": "1793584509",
-    "localidad": "SAN MARTÍN",
-    "zona": "SAN MARTÍN",
-    "titulo": "Alerta por tormentas fuertes este lunes: a qué hora llegan las lluvias al AMBA y qué provincias serán afectadas",
-    "resumen": "📰 Fuente: Ambito",
-    "fuente": "",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTDU0Rk1YM2xQWG9PMUlCMGNZMTA4SzRTZUJtZ05rc2huLXhKcDNYb0NvMXVpZ3UwZVU0RHdLQmROa215Z0xOd3R2c3BQZGkyWUJLVHA1TXdjRnVsRk4xaVpuWGNMWTFlVXNCbTc3dXFoV3lhbGpCYmlybUE3dlNWLWtGQzV2NXVqbUNpY05HSnpIQ2dTdUQyNE5zRFlVOEpqSjNUNFR4TXhXZlZvSHQyOXRMUllja0FRZGdLM1V6NzFKcWFxN2FIX9IBzgFBVV95cUxOY1djOC1oRDlWMUo0Nmo5MlNPQm1mTWpqMlBhTjRQQl9VTndBVHJZczhsVnZMOHE5bWwxNDJlOGNfSFJfRHFQd2E3cjNqQW9pUGE0YkRqdEpXWGxHdDVEcXVKbVYxWEU3bkNrZEszd1JnX1BtblZCZTRIU3kwNDBScDR4MC1ISzlVUGhnaFlMV2luSkFkOWstWWlxS3Z0c0dDakZYRVRLb0o4Q2h3SXhUWHNNSDdMYkk3b3FXcGl5Sm5BcXBoSy1VX3J4TU10dw?oc=5",
-    "fecha": "2026-11-02T01:55:09.549337+00:00",
     "hot": false,
     "prio": 0
   }
